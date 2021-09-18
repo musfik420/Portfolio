@@ -1,0 +1,417 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h5{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*global css start*/
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+ }   
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-4{
+  width: 33.33%;
+  float: left;
+}
+/*global css end*/
+/*header start*/
+.header{
+  width: 100%;
+  float: left;
+}
+
+.header .part-1{
+  padding-bottom: 250px;
+  background-color: #015761;
+}
+
+.header a{
+  color: #DBCD52;
+}
+
+.header h2{
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  padding: 40px 55px 15px;
+  text-transform: capitalize;
+}
+
+.menu{
+  width: 100%;
+  float: left;
+}
+
+.menu li{
+  list-style: none;
+  display: inline-block;
+
+}
+
+.menu a{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-left: 55px;
+  color: #FFFFFF;
+  transition: 1s;
+}
+
+.menu a:hover{
+  color: #DBCD52;
+}
+
+.header .title{
+  padding: 20% 25% 0;
+}
+
+.header .title h3{
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #DBCD52;
+  text-transform: capitalize;
+}
+
+.header .title h1{
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.header .title p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.part-2{
+  width: 50%;
+  float: left;
+}
+.part-2 img{
+	width: 100%;
+	height: 693px;
+}
+/*header end*/
+/*about start*/
+.about-me{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 80px 0 80px;
+  background-color: #F1F0F0;
+}
+
+.about-me h3{
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  color: #015761;
+  text-transform: capitalize;
+}
+
+.about-me .p1{
+  margin: 0 333px;
+  padding-bottom: 25px;
+}
+
+.about-me .p2{
+  margin: 0 333px;
+  padding-bottom: 25px;
+}
+
+.about-me button{
+  color: #015761;
+  background-color: #F7DC4F;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: 1s;
+}
+
+.about-me button:hover{
+  background-color: #015761;
+  color: white;
+}
+/*about end*/
+/* Social icon Start */
+
+.social-share{
+  width: 100%;
+  float: right;
+}
+
+.social-share-button{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 35%;
+  right: 0px;
+  background-color:#F7DC4F;
+  text-align: center;
+  padding: 12px;
+  border: 2px solid #015761;
+}
+
+.social-share-button li a .fa{
+  color: blue;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 10% 0;
+}
+
+.social-share-button a .fa-facebook:hover{
+  font-size: 17px;
+  font-weight: 600;
+  color: #015761;
+  
+}
+
+.social-share-button li a .fa-twitter:hover{
+  font-size: 16px;
+  font-weight: 600;
+  color: #015761;
+}
+
+.social-share-button li a .fa-instagram:hover{
+  font-size: 17px;
+  font-weight: 600;
+  color: #015761;
+}
+
+.social-share-button li a .fa-snapchat:hover{
+  font-size: 17px;
+  font-weight: 600;
+  color: #015761;
+}
+/*Social icon end*/
+/* Photos Section: Start */
+.showreel{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.showreel h2{
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  padding: 70px 0;
+  color: #015761;
+  text-transform: capitalize;
+}
+/* Photos Section: End */
+/* Multiple col 01 end */
+
+.multiple-photos{
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+}
+
+.multiple-photos .first img{
+  width: 80%;
+  height: 350px;
+  margin-left: 15%;
+}
+
+.multiple-photos .second img{
+  width: 100%;
+  height: 350px;
+}
+
+.multiple-photos .third img{
+  width: 80%;
+  height: 350px;
+  margin-left: 5%;
+}
+
+/* Multiple col 01 end */
+/* Multiple col 02 end */
+
+.multiple01-photos{
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+}
+
+.multiple01-photos .first img{
+  width: 110%;
+  height: 350px;
+  margin-left: 15%;
+}
+
+.multiple01-photos .second img{
+  width: 65%;
+  height: 350px;
+  margin-left: 30%;
+}
+
+.multiple01-photos .third img{
+  width: 85%;
+  height: 350px;
+}
+
+/* Multiple col 02 end */
+/* Contact Start */
+
+.contact{
+  width: 100%;
+  float: left;
+  padding-top: 5%;
+}
+
+.contact img{
+  float: left;
+  width: 100%;
+  height: 800px;
+}
+
+.contact .contact-info{
+  background-color: #015761;
+  height: 800px;
+}
+
+.contact .contact-info h3{
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #F7DC4F;
+  padding: 10% 0 5% 20%;
+}
+
+.contact .contact-info h4{
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: white;
+  padding: 0 0 2% 20%;
+}
+
+.contact .contact-info h6{
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  color: white;
+  padding: 0 0 0 20%;
+}
+
+.contact .contact-info p{
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  color: white;
+  padding: 0 0 5% 20%;
+}
+
+/* Contact End */
+
+/* Social Icon: Start */
+
+.social-icon{
+  float: left;
+  padding: 0 0 0 20%;
+}
+
+.social-icon li{
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a .fa{
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 30px;
+  color: white;
+  font-size: 20px;
+  margin: 0px 5px;
+  transition: 0.8s;
+}
+
+.social-icon li a .fa-facebook:hover{
+  color: black;
+}
+
+.social-icon li a .fa-reddit:hover{
+  color: black;
+}
+
+.social-icon li a .fa-twitter:hover{
+  color: black;
+}
+
+.social-icon li a .fa-instagram:hover{
+  color: black;
+}
+
+.social-icon li a .fa-snapchat:hover{
+  color: black;
+}
+
+
+/* Social Icon: Start */
+
+
+/* Footer Start */
+
+.footer{
+  width: 100%;
+  text-align: center;
+  
+}
+
+.footer p{
+  font-size: 12px;
+  line-height: 22px;
+  padding: 15px 0;
+  color: black;
+}
+
+.footer a{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.footer a:hover{
+  color: #015761;
+}
+
+
+/* Footer ENd */
